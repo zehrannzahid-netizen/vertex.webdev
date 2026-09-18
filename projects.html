@@ -1,106 +1,155 @@
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-body {
-    background: #0a0a0a;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-}
+    <title>Projects | Vertex.webdev</title>
 
-/* Navbar */
-header {
-    padding: 25px 8%;
-}
+    <link rel="stylesheet" href="style.css">
+</head>
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+<body>
 
-.logo {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: bold;
-}
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Vertex.webdev</a>
 
-.nav-links {
-    display: flex;
-    gap: 30px;
-}
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-.nav-links a {
-    color: #bdbdbd;
-    text-decoration: none;
-    font-size: 15px;
-}
 
-.nav-links a:hover {
-    color: #ffffff;
-}
+    <!-- Projects Section -->
+    <main>
 
-/* Hero */
-.hero {
-    min-height: 85vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 8%;
-    max-width: 1000px;
-}
+        <section class="projects">
 
-.hero-small {
-    color: #999999;
-    font-size: 13px;
-    letter-spacing: 3px;
-    margin-bottom: 20px;
-}
+            <p class="hero-small">MY WORK</p>
 
-.hero h1 {
-    font-size: 70px;
-    line-height: 1.05;
-    margin-bottom: 25px;
-}
+            <h1>Featured Projects</h1>
 
-.hero h1 span {
-    color: #8b8bff;
-}
+            <p class="projects-intro">
+                A collection of websites and digital experiences
+                I have built while developing my skills.
+            </p>
 
-.hero-text {
-    color: #aaaaaa;
-    font-size: 18px;
-    line-height: 1.7;
-    max-width: 650px;
-    margin-bottom: 35px;
-}
 
-/* Buttons */
-.hero-buttons {
-    display: flex;
-    gap: 15px;
-}
+            <!-- Project 1 -->
+            <article class="project-card">
 
-.btn {
-    display: inline-block;
-    padding: 14px 24px;
-    background: #ffffff;
-    color: #000000;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: 600;
-}
+                <div class="project-info">
+                    <p class="project-number">01</p>
 
-.secondary-btn {
-    background: transparent;
-    color: #ffffff;
-    border: 1px solid #444444;
-}
+                    <h2>Kashmiri Shawl House</h2>
 
-.btn:hover {
-    transform: translateY(-2px);
-}
+                    <p>
+                        A modern website for a traditional Kashmiri
+                        shawl business, designed to showcase the brand,
+                        products and business information.
+                    </p>
+
+                    <p class="tech">
+                        HTML • CSS • Responsive Design
+                    </p>
+
+                    <a href="#" class="btn">
+                        Visit Site →
+                    </a>
+                </div>
+
+            </article>
+
+
+            <!-- Project 2 -->
+            <article class="project-card">
+
+                <div class="project-info">
+                    <p class="project-number">02</p>
+
+                    <h2>Apex Fitness</h2>
+
+                    <p>
+                        A modern fitness and gym website designed
+                        to present services, programs and the overall
+                        gym experience.
+                    </p>
+
+                    <p class="tech">
+                        HTML • CSS • Responsive Design
+                    </p>
+
+                    <a href="#" class="btn">
+                        Visit Site →
+                    </a>
+                </div>
+
+            </article>
+
+
+            <!-- Project 3 -->
+            <article class="project-card">
+
+                <div class="project-info">
+                    <p class="project-number">03</p>
+
+                    <h2>Keystone Real Estate</h2>
+
+                    <p>
+                        A professional real estate website designed
+                        to showcase properties and provide a clean
+                        browsing experience.
+                    </p>
+
+                    <p class="tech">
+                        HTML • CSS • Responsive Design
+                    </p>
+
+                    <a href="#" class="btn">
+                        Visit Site →
+                    </a>
+                </div>
+
+            </article>
+
+
+            <!-- Project 4 -->
+            <article class="project-card">
+
+                <div class="project-info">
+                    <p class="project-number">04</p>
+
+                    <h2>Makeup & Beauty</h2>
+
+                    <p>
+                        A modern beauty website concept created
+                        for showcasing makeup services and products.
+                    </p>
+
+                    <p class="tech">
+                        HTML • CSS • Responsive Design
+                    </p>
+
+                    <a href="#" class="btn">
+                        Visit Site →
+                    </a>
+                </div>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
